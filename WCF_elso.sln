@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF_elso_server", "WCF_elso_server\WCF_elso_server.csproj", "{7FEC9877-1C7E-4D5A-9EE6-F43C8C2EB6ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF_elso_host", "WCF_elso_host\WCF_elso_host.csproj", "{E7321063-6BF5-4BA5-8E2A-D8CD22898479}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7FEC9877-1C7E-4D5A-9EE6-F43C8C2EB6ED} = {7FEC9877-1C7E-4D5A-9EE6-F43C8C2EB6ED}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FEC9877-1C7E-4D5A-9EE6-F43C8C2EB6ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FEC9877-1C7E-4D5A-9EE6-F43C8C2EB6ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FEC9877-1C7E-4D5A-9EE6-F43C8C2EB6ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FEC9877-1C7E-4D5A-9EE6-F43C8C2EB6ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7321063-6BF5-4BA5-8E2A-D8CD22898479}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7321063-6BF5-4BA5-8E2A-D8CD22898479}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7321063-6BF5-4BA5-8E2A-D8CD22898479}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7321063-6BF5-4BA5-8E2A-D8CD22898479}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C22DD1D-CF62-4202-B4F5-C4AED0509655}
+	EndGlobalSection
+EndGlobal
